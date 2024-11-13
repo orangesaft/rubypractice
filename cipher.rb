@@ -1,4 +1,4 @@
-#caesar_cipher = 
+#caesar_cipher => 
 
 sentence = gets.chomp
 
@@ -10,4 +10,10 @@ final_sentence = ascii_values.map do |num|
 
 end
 
-puts final_sentence
+#puts final_sentence
+
+characters = final_sentence.map(&:chr)
+
+real_final_sentence = characters.join
+
+puts real_final_sentence
