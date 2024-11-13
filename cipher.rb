@@ -17,3 +17,5 @@ characters = final_sentence.map(&:chr)
 real_final_sentence = characters.join
 
 puts real_final_sentence
+
+#deal with vwxyz
